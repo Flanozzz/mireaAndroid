@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MyApp</string>
+    <string name="go_second_activity">Открыть SecondActivity</string>
+    <string name="relative_layout">RelativeLayout</string>
+    <string name="constraint_layout">ConstraintLayout</string>
+    <string name="edit_text_hint">Тут можно ввести текст</string>
+    <string name="close_button_text">Закрыть и отправить введенный текст</string>
 </resources>
