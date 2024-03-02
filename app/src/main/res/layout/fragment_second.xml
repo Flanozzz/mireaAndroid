@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondActivity"
-    android:orientation="vertical">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragments.SecondFragment">
 
     <TextView
         android:id="@+id/extra_text_view"
@@ -17,41 +17,11 @@
         android:layout_weight="1"
         android:gravity="center"/>
 
-    <RelativeLayout
-        android:id="@+id/relative_layout"
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/second_fragment_container"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="6"
-        android:background="@color/background_second">
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_centerVertical="true"
-            android:layout_marginEnd="30dp"
-            android:text="@string/relative_layout"
-            android:textSize="25sp" />
-
-        <ImageView
-            android:id="@+id/imageView1"
-            android:layout_width="150sp"
-            android:layout_height="150dp"
-            android:layout_marginStart="20dp"
-            android:layout_centerVertical="true"/>
-
-        <Button
-            android:id="@+id/send_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/close_button_text"
-            android:layout_centerHorizontal="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="10sp"/>
-
-
-    </RelativeLayout>
+        android:layout_weight="6"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraint_layout"
