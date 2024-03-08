@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.example.myapp.databinding.ActivityMainBinding;
 import com.example.myapp.fragments.FirstFragment;
+import com.example.myapp.fragments.GoToListsFragment;
 
 import java.util.Objects;
 
@@ -29,7 +30,8 @@ public class MainActivity extends AppCompatActivity {
                     .setReorderingAllowed(true)
                     .add(
                             R.id.main_fragment_container,
-                            FirstFragment.class,
+
+                    GoToListsFragment.class,
                             null
                     )
                     .commit();
