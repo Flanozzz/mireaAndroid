@@ -1,4 +1,4 @@
-package com.example.myapp.fragments;
+package com.example.myapp.fragments.pr4;
 
 import android.os.Bundle;
 

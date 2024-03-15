@@ -12,6 +12,8 @@ public class Utils {
     public static final String REQUEST_KEY = "REQUEST_KEY";
     public static final String CHILD_REQUEST_KEY = "CHILD_REQUEST_KEY";
 
+    public static final String BUNDLE_STRING_KEY = "BUNDLE_STRING_KEY";
+
     public static ArrayList<Item> getListViewItems() {
         ArrayList<Item> list = new ArrayList<Item>();
         for (int i = 0; i < 200; i++) {

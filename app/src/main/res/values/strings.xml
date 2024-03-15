@@ -11,4 +11,9 @@
     <string name="send_data_to_prev_frag">отправить данные в пердыдущий фрагмент</string>
     <string name="listview">ListView</string>
     <string name="recycleview">RecycleView</string>
+    <string name="to_third_fragment">To Third Fragment</string>
+    <string name="to_second_fragment">To Second Fragment</string>
+    <string name="to_first_fragment">To First Fragment</string>
+    <string name="second_fragment">Second fragment</string>
+    <string name="third_fragment">Third Fragment</string>
 </resources>

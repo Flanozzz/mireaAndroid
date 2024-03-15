@@ -40,7 +40,7 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
         holder.textView.setText(item.text);
         holder.imageView.setImageDrawable(context.getDrawable(R.drawable.baseline_emoji_emotions_24));
         holder.root.setOnClickListener(view -> {
-            Toast.makeText(context, "on list item click", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "on recycler view item click", Toast.LENGTH_SHORT).show();
         });
     }
 

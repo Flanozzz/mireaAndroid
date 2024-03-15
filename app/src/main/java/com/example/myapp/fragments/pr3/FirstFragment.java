@@ -1,4 +1,4 @@
-package com.example.myapp.fragments;
+package com.example.myapp.fragments.pr3;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -6,7 +6,6 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Lifecycle;
 
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -16,6 +15,7 @@ import android.view.ViewGroup;
 import com.example.myapp.R;
 import com.example.myapp.Utils;
 import com.example.myapp.databinding.FragmentFirstBinding;
+import com.example.myapp.fragments.pr4.ListViewFragment;
 
 public class FirstFragment extends Fragment {
 
@@ -49,15 +49,15 @@ public class FirstFragment extends Fragment {
         result.putString(Utils.BUNDLE_KEY, "Результат от фрагмента FirstFragment");
         getParentFragmentManager().setFragmentResult(
                 Utils.REQUEST_KEY, result);
-        requireActivity().getSupportFragmentManager().beginTransaction()
-                .setReorderingAllowed(true)
-                .replace(
-                        R.id.main_fragment_container,
-                        ListViewFragment.class,
-                        null
-                )
-                .addToBackStack(null)
-                .commit();
+//        resultrequireActivity().getSupportFragmentManager().beginTransaction()
+//                .setReorderingAllowed(true)
+//                .replace(
+//                        R.id.main_fragment_container,
+//                        ListViewFragment.class,
+//                        null
+//                )
+//                .addToBackStack(null)
+//                .commit();
     }
 
     @Override

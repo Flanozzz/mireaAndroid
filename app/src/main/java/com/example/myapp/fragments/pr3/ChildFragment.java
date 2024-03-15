@@ -1,4 +1,4 @@
-package com.example.myapp.fragments;
+package com.example.myapp.fragments.pr3;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
