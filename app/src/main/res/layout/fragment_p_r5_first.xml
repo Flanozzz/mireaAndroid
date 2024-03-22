@@ -30,20 +30,31 @@
         android:id="@+id/navigate_to_third_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
         android:text="@string/to_third_fragment"
-        app:layout_constraintTop_toBottomOf="@id/navigate_to_second_button"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/data_text_view"/>
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/navigate_to_second_button" />
 
-    <TextView
-        android:id="@+id/data_text_view"
+    <Button
+        android:id="@+id/show_notification_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="@dimen/big_text_size"
-        tools:text="Текс для отображения переданной информации"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="596dp"
+        android:text="Показать уведомление"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/data_text_view"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="@dimen/big_text_size"-->
+<!--        tools:text="Текс для отображения переданной информации"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"/>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
